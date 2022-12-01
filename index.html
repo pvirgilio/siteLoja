@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super Ofertas Amazon</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <div><img class="logo-img" src="/logo-site.png" alt=""></div>
+            <div class="logo-texto">
+                <h1 style="font-size:22px ;">Super Ofertas Amzon</h1>
+            </div>
+        </div>
+        <!--Container logo-->
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <section class="catalogo">
+        <h2>Produtos Amazon</h2>
+        <div id="produtos">
+
+        </div>
+    </section>
+
+    <script>
+
+        const itens = [
+            {
+                id: 0,
+                nome: 'Xiaomi Redmi Note 11 Graphite Gray 6GB Ram 128GB Rom',
+                img: 'https://m.media-amazon.com/images/I/51e3KdrHuCL._AC_SX679_.jpg'
+            },
+            {
+                id: 1,
+                nome: 'Kit 6 Camisetas Masculina Lisa Algodão Qualidade',
+                img: 'https://m.media-amazon.com/images/I/41mj32NAPrL._AC_SX569_.jpg'
+            },
+            {
+                id: 2,
+                nome: 'Alexa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+            },
+            {
+                id: 3,
+                nome: 'Alexa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+            },
+            {
+                id: 4,
+                nome: 'Camisa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+                
+            },
+            {
+                id: 5,
+                nome: 'Alexa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+            },
+            {
+                id: 6,
+                nome: 'Alexa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+            },
+            {
+                id: 7,
+                nome: 'Camisa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+                
+            },
+            {
+                id: 8,
+                nome: 'Alexa',
+                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+            },
+        ]
+
+
+        inicializarLoja = () => {
+            var containerProdutos = document.getElementById('produtos')
+            itens.map((val) => {
+                containerProdutos.innerHTML += `
+                
+                <div class="produto-single">
+                    <img class= "img-site" src="`+ val.img + `">
+                    <p style="font-size: 18px">`+ val.nome + `</p>
+                    <a class= "acesse-aqui" key="`+ val.id + `" href="">Acesse aqui </a>
+                </div>
+                
+                `
+            })
+        }
+        inicializarLoja();
+    </script>
+    <footer>
+        <h3>Super ofertas Amzon © 2022</h3>
+    </footer>
+</body>
+
+</html>
