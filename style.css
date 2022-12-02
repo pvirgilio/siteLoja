@@ -164,7 +164,8 @@ h2{
 .card-prime a{
     position: absolute;
     left: 100px;
-    bottom: 300px;
+    bottom: 40%;
+    display: block;
     text-decoration: none;
     background-color: #FFA41C;
     color:black ;
