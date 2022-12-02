@@ -1,7 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/amazon-ember');
 
 *{
-    width: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -160,10 +159,10 @@ h2{
 }
 
 .card-prime a{
+    max-width: 100%;
     position: absolute;
     left: 100px;
     bottom: 40%;
-    display: block;
     text-decoration: none;
     background-color: #FFA41C;
     color:black ;
@@ -197,5 +196,8 @@ footer h2{
     *{
         max-width: 100%;
         margin-right: 0;
+    }
+    .img-prime{
+        height: 500px;
     }
 }
