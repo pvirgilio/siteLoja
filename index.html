@@ -41,47 +41,33 @@
             {
                 id: 0,
                 nome: 'Xiaomi Redmi Note 11 Graphite Gray 6GB Ram 128GB Rom',
-                img: 'https://m.media-amazon.com/images/I/51e3KdrHuCL._AC_SX679_.jpg'
+                img: 'https://m.media-amazon.com/images/I/51e3KdrHuCL._AC_SX679_.jpg',
+                url: 'https://www.google.com'
             },
             {
                 id: 1,
                 nome: 'Kit 6 Camisetas Masculina Lisa Algodão Qualidade',
-                img: 'https://m.media-amazon.com/images/I/41mj32NAPrL._AC_SX569_.jpg'
+                img: 'https://m.media-amazon.com/images/I/41mj32NAPrL._AC_SX569_.jpg',
+                url: 'https://www.facebook.com'
             },
             {
                 id: 2,
                 nome: 'Alexa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+                img: 'https://m.media-amazon.com/images/I/61xtM8acqzL._AC_SX522_.jpg'
             },
             {
                 id: 3,
                 nome: 'Alexa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+                img: 'https://m.media-amazon.com/images/I/71BN+Zw9I0L._AC_SX679_.jpg'
             },
             {
                 id: 4,
                 nome: 'Camisa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
+                img: 'https://m.media-amazon.com/images/I/71JOGEkJcyL._AC_SX522_.jpg'
                 
             },
             {
                 id: 5,
-                nome: 'Alexa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
-            },
-            {
-                id: 6,
-                nome: 'Alexa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
-            },
-            {
-                id: 7,
-                nome: 'Camisa',
-                img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
-                
-            },
-            {
-                id: 8,
                 nome: 'Alexa',
                 img: 'https://m.media-amazon.com/images/I/714Rq4k05UL._AC_SX679_.jpg'
             },
@@ -96,7 +82,7 @@
                 <div class="produto-single">
                     <img class= "img-site" src="`+ val.img + `">
                     <p style="font-size: 18px">`+ val.nome + `</p>
-                    <a class= "acesse-aqui" key="`+ val.id + `" href="">Acesse aqui </a>
+                    <a class= "acesse-aqui" href="`+ val.url +`" target= _blank>Acesse aqui </a>
                 </div>
                 
                 `
@@ -104,9 +90,7 @@
         }
         inicializarLoja();
     </script>
-    <footer>
-        <h3>Super ofertas Amzon © 2022</h3>
-    </footer>
+    
 </body>
 
 </html>
