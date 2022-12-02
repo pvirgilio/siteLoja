@@ -205,7 +205,7 @@ footer h2{
         width: 25pc;
         
     }
-    .card-prime{
-        width: 100%;
+    .card-prime a{
+        max-width: 100%;
     }
 }
