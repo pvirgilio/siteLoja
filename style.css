@@ -198,7 +198,7 @@ footer h2{
     }
     
     *{
-        width: 100%;
+        max-width: 100%;
     }
     .img-prime{
         height: 25pc;
