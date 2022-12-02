@@ -58,15 +58,21 @@ h2{
     color: white;
 }
 
+.catalogo{
+    
+
+}
+
 #produtos {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 2%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+    
 }
 
 .produto-single{
@@ -75,18 +81,16 @@ h2{
     margin-right: 1%;
     margin-top: 100px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border-radius: 20px;
+    border: 1px solid rgb(238, 238, 238);
 }
 
 .produto-single p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+   display: block;
+   text-align: left;
     color: #2E1111;
-   margin-top: 20px;
-   margin-bottom: 20px;
    padding-top: 20px;
+   margin: 15px;
    height: 5em;
 }
 
@@ -101,23 +105,86 @@ h2{
     border-radius: 20px;
     
 }
+.card-img{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 223px;
+    height: 223px;
+    margin: 0 auto;
 
+}
 
 
 
 .img-site{
-    
-    width: 100%;
-    height: 280px;
-
+    max-width: 100%;
+    max-height: 100%;
+   
     
 }
+
+.acesse-aqui{
+    font-weight: bold;
+
+
+}
+
+.promo{
+    text-align: center;
+    margin-top: 80px;
+  
+}
+
+.card-prime{
+    
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+
+.img-prime{
+    max-width: 100%;
+}
+
+.card-prime h1{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    padding: 20px;
+    width: 600px;
+    text-align: left;
+    color: white;
+
+}
+
+.card-prime a{
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+    text-decoration: none;
+    background-color: #FFA41C;
+    color:black ;
+    padding: 20px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 footer{
 background-color: #232F3E;
 text-align: center;
 color: white;
 padding: 20px;
+}
+
+footer h2{
+    font-size: 15px;
+
 }
 
 
