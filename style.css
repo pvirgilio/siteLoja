@@ -196,6 +196,9 @@ footer h2{
         margin-right: 0;
     
     }
+    menu li{
+        padding: 10px;
+    }
     *{
         max-width: 100%;
         margin-right: 0;
