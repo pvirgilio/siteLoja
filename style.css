@@ -189,7 +189,7 @@ footer h2{
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
     .produto-single{
         width: 100%;
         margin-right: 0;
