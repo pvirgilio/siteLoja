@@ -196,16 +196,8 @@ footer h2{
         margin-right: 0;
     
     }
-    
     *{
         max-width: 100%;
-    }
-    .img-prime{
-        height: 25pc;
-        width: 25pc;
-        
-    }
-    .card-prime a{
-        max-width: 100%;
+        margin-right: 0;
     }
 }
