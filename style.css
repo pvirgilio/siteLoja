@@ -195,6 +195,11 @@ footer h2{
         margin-right: 0;
     
     }
+    .img-prime{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
     *{
         max-width: 100%;
     }
