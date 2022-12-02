@@ -200,8 +200,8 @@ footer h2{
     *{
         max-width: 100%;
     }
-    .card-prime{
-        height: 800px;
+    .card-prime, .img-prime{
+        height: 500px;
         
     }
 }
