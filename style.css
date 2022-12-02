@@ -198,10 +198,11 @@ footer h2{
     }
     
     *{
-        max-width: 100%;
+        width: 100%;
     }
-    .card-prime, .img-prime{
-        height: 500px;
+    .img-prime{
+        height: 25pc;
+        width: 25pc;
         
     }
 }
