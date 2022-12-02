@@ -26,9 +26,10 @@ h2{
 
 .logo-img{
     width: 50px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
     border-radius: 25px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .container-logo{
@@ -134,6 +135,7 @@ h2{
 .promo{
     text-align: center;
     margin-top: 80px;
+    font-size: 25px;
   
 }
 
