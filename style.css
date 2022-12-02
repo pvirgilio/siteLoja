@@ -207,6 +207,13 @@ footer h2{
     .img-prime{
         max-width: 100%;
         height: 700px;
+        background-size: cover;
         
+    }
+    .produto-single a{
+        padding: 30px;
+    }
+    .menu li a{
+        display: inline-block;
     }
 }
